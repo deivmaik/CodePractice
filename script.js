@@ -67,4 +67,4 @@ checkbox.addEventListener('change', function () {
 
 // ^ thought about this but it only works if you click on the character and not directly from the toggle itself.
 
-
+// I guess I may need more practice with js
