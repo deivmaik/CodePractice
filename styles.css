@@ -14,17 +14,17 @@ html[data-theme='anakin']{
     /* Anakin skywalker colors */
     --bg: #111111;
     --bg-container: #1E1E1E;
-    --color-red: #F04749;
-    --color-white: #E5E5E5;
+    --color-redNblue: #F04749;
+    --color-whiteNgrey: #E5E5E5;
 }
 
 html[data-theme='luke']{
    /* Luke Skywalker colors  */
    --bg: #FBFBFB ;
    --bg-container: #EBEBEB;
-   --color-red: #67B9F3;
-   --color-white: #444444;
-   
+   --color-redNblue: #1275c0;
+   --color-whiteNgrey: #444444;
+
     margin: 0;
     height: 100%;
     font-family: 'Poppins', sans-serif;
@@ -34,6 +34,8 @@ html[data-theme='luke']{
     justify-items: center;
 
 }
+
+
 
 body{
     background-color: var(--bg);
@@ -68,12 +70,12 @@ main {
 
 h1{
     margin: 0;
-    color: var(--color-red);
+    color: var(--color-redNblue);
 }
 
 /* Statements from the movie */
 p {
-    color: var(--color-white);
+    color: var(--color-whiteNgrey);
     grid-area: content;
     font-size: 1.2rem;
     line-height: rem;
@@ -91,6 +93,8 @@ p {
     height: 8rem;
 }
 
+
+
 /* toggle */
 .container__toggler {
     display: flex;
@@ -104,7 +108,7 @@ p {
 
 .label {
     position: relative;
-    background-color: var(--color-white) ;
+    background-color: var(--color-whiteNgrey) ;
     display: flex;
     border-radius: 5rem;
     height: 2.6rem;
@@ -118,19 +122,13 @@ p {
     left: 0.25rem;
     width: 2rem;
     height: 2rem;
-    background-color: var(--color-red);
+    background-color: var(--color-redNblue);
     transition: transform 0.2s linear;
 }
 
 
 .toggle:checked + .label .switch {
-    transform:translateX(2.4rem)
+    transform:translateX(2.3rem)
 }
 
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
-}
+
