@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="anakin">
 
 <head>
     <meta charset="UTF-8">
@@ -11,21 +11,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1> No, I am your father.</h1>
+    <main>
+        <h1 id="lukesReaction"> No, I am your father.</h1>
         <div class="container__toggler">
-            <input type="checkbox" id="toggle" class="toggle">
+            <input type="checkbox" id="toggle" class="toggle" onclick="myToggle() ,myToggleDesc() ,color() ">
             <label for="toggle" class="label">
                 <div class="switch"></div>
             </label>
         </div>
         <div class="container__svg">
-            <img class="darthVader" src="/darthvader.svg">
+            <img class="darthVader" id="darthVader" src="/img/darthvader.svg">
         </div>
-        <p>The line “ Luke, I am your father “ is never said by Darth Vader in <i>The Empire Strikes
+        <p id="ObiTheLiar">The line “ Luke, I am your father “ is never said by Darth Vader in <i>The Empire Strikes
                 Back.</i><br><br>What he actually says is “ No, I am your father “ .</p>
         <!-- I tried to use double p but boy it went bad, had to add margin top of 10rem to make it prettier, so I guess we will stick with br for sometime, until I get better enough to fix this. -->
-    </div>
+    </main>
+    <script src="/script.js"></script>
 </body>
 
 </html>
