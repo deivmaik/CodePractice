@@ -19,6 +19,12 @@ html[data-theme='anakin']{
 }
 
 html[data-theme='luke']{
+   /* Luke Skywalker colors  */
+   --bg: #FBFBFB ;
+   --bg-container: #EBEBEB;
+   --color-red: #67B9F3;
+   --color-white: #444444;
+   
     margin: 0;
     height: 100%;
     font-family: 'Poppins', sans-serif;
@@ -26,11 +32,7 @@ html[data-theme='luke']{
     display: grid;
     align-items: center;
     justify-items: center;
-/* Luke Skywalker colors  */
-    --luke-bg: #FBFBFB ;
-    --luke-container: #EBEBEB;
-    --color-blue: #67B9F3;
-    --color-grey: #444444;
+
 }
 
 body{
@@ -123,4 +125,12 @@ p {
 
 .toggle:checked + .label .switch {
     transform:translateX(2.4rem)
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
 }
