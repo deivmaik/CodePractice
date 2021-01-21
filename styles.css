@@ -1,0 +1,53 @@
+
+html{
+    font-size: 65%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%; 
+    /*  ^ its odd that width doesnt want to align like the rest */
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img{
+    max-width: 10rem;
+    max-height: 5rem;
+}
+
+main{
+    height: 50vh;
+}
+
+.main__car img{
+    max-width: 50rem;
+    margin:auto;
+    display: block;
+}
+
+.thumbnail{
+    text-align: center;
+    cursor:pointer;
+}
+
+.thumbnail__box{
+    display: inline-block;
+    width: 5rem;
+    width: 5rem;
+}
+
+.thumbnail__box img{
+    max-width: 100%;
+    max-height: 100%;
+}
