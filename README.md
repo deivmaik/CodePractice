@@ -7,6 +7,7 @@ Plot twist, based on how long each project can take (and because when changing a
 >Is it clickbait? No, in fact doing it this way may increase the quality of the projects.
 
 <h1> List of Projects </h1>
+
 [1-DarkMode(StarWars)](https://github.com/deivmaik/365DaysOfCode/tree/1-DarkMode(StarWars)/)<br>
 [2-ColorPicker(TeslaEdition)](https://github.com/deivmaik/365DaysOfCode/tree/2-ColorPicker(TeslaEdition))<br>
 [3-ColorFliper(ClubVersion)](https://github.com/deivmaik/365DaysOfCode/tree/3-ColorFliper(ClubVersion))
