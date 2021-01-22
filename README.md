@@ -1,6 +1,11 @@
-# 365DaysOfCode
- Now that I started programming, I've seen a trend of   #100DaysOfCode , I don't quiet understand why stop at 100 , I'd probably stop at 99 or 120 (following runescape rules on maxing a skill), but to make it more interesting I decided I will go for a whole cyclel,here it is my #365DaysOfCode
+# 3-ColorFliper(ClubVersion)
 
+I wanted to make an easy random color background generator.
 
-[1-DarkMode(StarWars)](https://github.com/deivmaik/365DaysOfCode/tree/1-DarkMode(StarWars)/)<br>
-[2-ColorPicker(TeslaEdition)](https://github.com/deivmaik/365DaysOfCode/tree/2-ColorPicker(TeslaEdition))
+if you click it many times it looks like you are partying. #covidLife
+
+Grab a drink and enjoy while it lasts.
+
+Ps. The gif changes of color fast, so... try to not watch it if you have problems with it, it starts slow supossing you are still reading this so, close if it you need to, or not... up to you.
+
+Example (gif)![](https://raw.githubusercontent.com/deivmaik/365DaysOfCode/3-ColorFliper(Hex)/ClosesThingToAClub.gif)
