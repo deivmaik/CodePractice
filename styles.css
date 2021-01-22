@@ -60,4 +60,10 @@ main{
 .btn:hover{
     color:#fff ;
     background: #141516;
+
+}
+
+.btn:focus{
+    outline: #141516;
+    /* I could have deleted the outline, but it doesnt help when making your website accesible to others, I figured that making the outline have the same color as the button would help disguise it but still be functional. */
 }
