@@ -14,3 +14,5 @@ Once you read through it, you can get the hang out of it, the use of double clas
 by the way , check out this awesome track that I was listening while coding specially from 6:28 <br> [From Now On · Worakls](https://www.youtube.com/watch?v=KCg4EfFAtoU) , it really changes your mood in a positive way. 
 
 Hope you enjoy the PseudoLoop! haha.
+
+Example (gif)![](https://raw.githubusercontent.com/deivmaik/365DaysOfCode/4-PopUpModal(PseudoLoop)/manualLoop.gif)
