@@ -30,7 +30,7 @@ body{
     padding: 1.5rem;
     height: 5rem;
     width: 5rem;
-    transition: width 0.3 ease; 
+    transition: width 0.3s ease; 
     /* Its a transition effect that will only affect the width of the element */
 }
 
@@ -47,12 +47,16 @@ body{
     transition: transform 0.3s ease;
 }
 
-.search__btn:focus .search__input:focus {
+.search__btn:focus {
+    outline: none;
+}
+
+.search__input:focus {
     outline: none;
 }
 
 .search.active .search__input{
-    width: 20rem;
+    width: 25rem;
 }
 
 .search.active .search__btn{
