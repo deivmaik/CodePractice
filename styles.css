@@ -18,6 +18,18 @@ body{
     margin: 0;
 }
 
+header {
+display: flex;
+flex-direction: column;
+margin-bottom: 20rem;
+/* maybe not the best practice, but it works ^  */
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    color: rgb(82, 75, 75);
+}
 .search {
     position: absolute;
     height: 5rem;
