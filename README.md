@@ -11,4 +11,6 @@ Now that I started programming, I've seen a trend of  #100DaysOfCode , I don't q
 - [ 2 | ColorPicker (TeslaEdition)](https://github.com/deivmaik/365DaysOfCode/tree/2-ColorPicker(TeslaEdition))<br>
 - [ 3 | ColorFliper (ClubVersion)](https://github.com/deivmaik/365DaysOfCode/tree/3-ColorFliper(ClubVersion))<br>
 - [ 4 | PopUpModal (PseudoLoop)](https://github.com/deivmaik/365DaysOfCode/tree/4-PopUpModal(PseudoLoop))<br>
-- [ 5 | SearchInput (HiddenTruth](https://github.com/deivmaik/365DaysOfCode/tree/5-SearchInput(HiddenTruth))<br>
+- [ 5 | SearchInput (HiddenTruth)](https://github.com/deivmaik/365DaysOfCode/tree/5-SearchInput(HiddenTruth))<br>
+- [ 6 | ProgressBar (Pitbull)](https://github.com/deivmaik/365DaysOfCode/tree/6-ProgressBar(Pitbull))<br>
+
