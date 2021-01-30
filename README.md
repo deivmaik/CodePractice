@@ -7,3 +7,4 @@ Example of a simple yet nice looking search toggle animation.
 
 Example (gif)![](https://raw.githubusercontent.com/deivmaik/365DaysOfCode/5-SearchInput(HiddenTruth)/pointlessSearch.gif)
 
+[Go back to list (main)](https://github.com/deivmaik/365DaysOfCode)
