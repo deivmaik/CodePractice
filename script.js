@@ -48,5 +48,16 @@ function update() {
         prev.disabled = false
         next.disabled = false
     }
+
+    console.log(currentActive)
+
 }
 
+let pitbull = document.getElementById('toggleImage')
+
+
+if (currentActive === 4) {
+    document.getElementById("imageid").src = "https://p.kindpng.com/picc/s/374-3741435_pitbull-hd-png-download.png";
+} else {
+    document.getElementById("imageid").src = "https://www.vippng.com/png/full/43-431921_download-pitbull-singer.png";
+}
