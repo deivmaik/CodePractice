@@ -65,10 +65,10 @@ body{
     left: 0;
     height: 0.25rem;
     transform: translateY(-50%);
-    width: 70%;
+    width: 0%;
     z-index: -1;
     /* funfact, I learned about z-index while using webflow */
-    transition: .25s ease;
+    transition: .5s ease;
 }
 
 .progress__circle{
@@ -82,7 +82,7 @@ body{
     align-items: center;
     justify-content: center;
     border: 0.3rem solid var(--border--empty);
-    transition: .25s ease;
+    transition: .5s ease;
 }
 
 .progress__circle.active{
