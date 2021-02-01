@@ -18,9 +18,18 @@ body{
     margin: 0;
 }
 
-h2{
+h1{
     position: absolute;
     top: 10rem;
+}
+
+p{
+    position: absolute;
+    text-align: center;
+    top: 13rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: grey;
 }
 
 .range__container{
@@ -39,6 +48,7 @@ input[type='range']:focus{
 }
 
 input[type='range'] + label {
+    font-size: 1.2rem;
     background-color: white;
     position: absolute;
     bottom: 4rem;
