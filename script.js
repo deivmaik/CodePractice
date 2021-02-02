@@ -55,9 +55,17 @@ function update() {
 
 let pitbull = document.getElementById('toggleImage')
 
+// if (currentActive === 4) {
+//     document.getElementById("imageid").src = "https://p.kindpng.com/picc/s/374-3741435_pitbull-hd-png-download.png";
+// } else {
+//     document.getElementById("imageid").src = "https://raw.githubusercontent.com/deivmaik/365DaysOfCode/6-ProgressBar(Pitbull)/rumba.png";
+// }
 
-if (currentActive === 4) {
-    document.getElementById("imageid").src = "https://p.kindpng.com/picc/s/374-3741435_pitbull-hd-png-download.png";
-} else {
-    document.getElementById("imageid").src = "https://www.vippng.com/png/full/43-431921_download-pitbull-singer.png";
+
+function toggleImage() {
+    let img1 = "https://p.kindpng.com/picc/s/374-3741435_pitbull-hd-png-download.png",
+        img2 = "https://raw.githubusercontent.com/deivmaik/365DaysOfCode/6-ProgressBar(Pitbull)/rumba.png";
+    let imgElement = document.getElementById('toggleImage')
+
+    imgElement.src = (imgElement.src === img1) ? img2 : img1
 }
