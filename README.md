@@ -1,16 +1,14 @@
-# 365DaysOfCode <br>
-[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/deivmaik/365DaysOfCode/blob/0-MainMenu/LICENSE)   ![visitors](https://visitor-badge.glitch.me/badge?page_id=deivmaik.365DaysOfCode) <br>
+# RangeSlider(MaxSpeed)
 
->EDIT: Due that somedays I may be unavailable to send commits or that eventually the projects might end up taking more than a day, I've decided to change it to 365Projects instead, one for each day of the year regardless of how long it may take.
+The fastest car on Earth in 2020 was the SSC Tuatara, made by SSC NorthAmerica (Yeah, I never heard about them either), and it goes at 455.3 km/hr , thats half the speed of an airplane, and to be honest for the price it costs you might as well just buy an airplane.
 
-Now that I started programming, I've seen a trend of  #100DaysOfCode , I don't quiet understand why stop at 100 , I'd probably stop at 99 or 120 (following runescape rules on maxing a skill), but to make it more interesting I decided I will go for a whole cyclel,here it is my #365DaysOfCode
+It costs 1.3 million of dollars at the very basic, so yeah not something many of us can easily get.
 
-## List of Projects
+Luckyly to you! I am here to help you out, if you use the scroll range bellow, you can go as fast or even faster! than the SSC Tuatara.
+>Will that help you in anything at all? will your ex ever love you back? why did dad leave? I cannot answer either of those, but here is a gif of the rangeSlider.
 
-- [ 1 | DarkMode (StarWars)](https://github.com/deivmaik/365DaysOfCode/tree/1-DarkMode(StarWars))<br>
-- [ 2 | ColorPicker (TeslaEdition)](https://github.com/deivmaik/365DaysOfCode/tree/2-ColorPicker(TeslaEdition))<br>
-- [ 3 | ColorFliper (ClubVersion)](https://github.com/deivmaik/365DaysOfCode/tree/3-ColorFliper(ClubVersion))<br>
-- [ 4 | PopUpModal (PseudoLoop)](https://github.com/deivmaik/365DaysOfCode/tree/4-PopUpModal(PseudoLoop))<br>
-- [ 5 | SearchInput (HiddenTruth)](https://github.com/deivmaik/365DaysOfCode/tree/5-SearchInput(HiddenTruth))<br>
-- [ 6 | ProgressBar (Pitbull)](https://github.com/deivmaik/365DaysOfCode/tree/6-ProgressBar(Pitbull))<br>
+enjoy!
 
+Example (gif)![](https://raw.githubusercontent.com/deivmaik/365DaysOfCode/7-RangeSlider(MaxSpeed)/faster.gif)
+
+[Go back to list (main)](https://github.com/deivmaik/365DaysOfCode)
