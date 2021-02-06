@@ -7,7 +7,7 @@ html{
 }
 body{
     background-color: #eafbff;
-    background-image: linear-gradient(to bottom, #eafbff 0%,#eafbff 50%, #2D9CDB 50%, #2D9CDB 100%);
+    background-image: linear-gradient(to bottom, #f3f3f3 0%,#f3f3f3 50%, #3e4653 50%, #3e4653 100%);
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
@@ -49,12 +49,12 @@ nav.active ul{
 nav ul li{
     transform: rotateY(0deg);
     opacity: 0;
-    transition: transform 0.5sec linear, opacity 0.5sec linear;
+    transition: transform 0.5s linear, opacity 0.5s linear;
 }
 
 nav.active ul li {
     opacity: 1;
-    transform: rotateY(360deg);
+    transform: rotateY(360deg);s
 }
 
 nav ul a{
@@ -63,3 +63,44 @@ nav ul a{
     text-decoration: none;
     margin: 0 1rem;
 }
+
+.icon {
+    background: white;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+}
+
+.icon:focus{
+    outline: none;
+}
+
+.icon .line{
+    background-color: #3e4653;
+    height: 0.2rem;
+    width: 2rem;
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+    transition: transform  0.5s linear;
+}
+
+.icon .lineTwo {
+    top: auto ;
+    bottom: 1rem;
+}
+
+
+nav.active .icon .lineOne {
+    transform: rotate(-765deg) translateY(0.55rem);
+}
+
+nav.active .icon .lineTwo {
+    transform: rotate(+765deg) translateY(-0.55rem);
+}
+
+/* This makes the x form ^ */
+
