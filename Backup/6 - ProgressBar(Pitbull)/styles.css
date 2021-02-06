@@ -1,0 +1,115 @@
+
+:root {
+    --border--filled:#3498db;
+    --border--empty:#e0e0e0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 65%;
+}
+
+body{
+    background-color: #f6f7f6;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.pitbull{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-bottom: 21rem;
+    transform: scale(0.5);
+    /* uno dos tres cuatro I know you want me  */
+}
+
+.container{
+    text-align: center;
+}
+
+.progress__container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    width: 35rem;
+}
+
+.progress__container::before{
+    content: '';
+    background-color: var(--border--empty);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 0.25rem;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+    /* funfact, I learned about z-index while using webflow */
+}
+
+.progress{
+    background-color: var(--border--filled);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 0.25rem;
+    transform: translateY(-50%);
+    width: 0%;
+    z-index: -1;
+    /* funfact, I learned about z-index while using webflow */
+    transition: .5s ease;
+}
+
+.progress__circle{
+    background-color: white;
+    color: grey;
+    border-radius: 50%;
+    /* to make it rounded */
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.3rem solid var(--border--empty);
+    transition: .5s ease;
+}
+
+.progress__circle.active{
+    border-color: var(--border--filled);
+}
+
+.btn{
+    background-color: var(--border--filled);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 0.8rem 3rem;
+    margin: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:disabled{
+    background-color: var(--border--empty);
+    cursor: not-allowed;
+}
