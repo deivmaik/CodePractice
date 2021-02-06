@@ -1,18 +1,13 @@
-# 365DaysOfCode <br>
-[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/deivmaik/365DaysOfCode/blob/0-MainMenu/LICENSE)   ![visitors](https://visitor-badge.glitch.me/badge?page_id=deivmaik.365DaysOfCode) <br>
+# Button(RippleEffect)
 
->EDIT: Due that somedays I may be unavailable to send commits or that eventually the projects might end up taking more than a day, I've decided to change it to 365Projects instead, one for each day of the year regardless of how long it may take.
+Well, not much to add here, it's a button with a ripple effect.
 
-Now that I started programming, I've seen a trend of  #100DaysOfCode , I don't quiet understand why stop at 100 , I'd probably stop at 99 or 120 (following runescape rules on maxing a skill), but to make it more interesting I decided I will go for a whole cyclel,here it is my #365DaysOfCode
+>A ripple effect occurs when an initial disturbance to a system propagates outward to disturb an increasingly larger portion of the system, like ripples expanding across the water when an object is dropped into it. The ripple effect is often used colloquially to mean a multiplier in macroeconomics.
 
-## List of Projects
+Yeah, I never heard about before either.
+enjoy!
 
-- [ 1 | DarkMode (StarWars)](https://github.com/deivmaik/365DaysOfCode/tree/1-DarkMode(StarWars))<br>
-- [ 2 | ColorPicker (TeslaEdition)](https://github.com/deivmaik/365DaysOfCode/tree/2-ColorPicker(TeslaEdition))<br>
-- [ 3 | ColorFliper (ClubVersion)](https://github.com/deivmaik/365DaysOfCode/tree/3-ColorFliper(ClubVersion))<br>
-- [ 4 | PopUpModal (PseudoLoop)](https://github.com/deivmaik/365DaysOfCode/tree/4-PopUpModal(PseudoLoop))<br>
-- [ 5 | SearchInput (HiddenTruth)](https://github.com/deivmaik/365DaysOfCode/tree/5-SearchInput(HiddenTruth))<br>
-- [ 6 | ProgressBar (Pitbull)](https://github.com/deivmaik/365DaysOfCode/tree/6-ProgressBar(Pitbull))<br>
-- [ 7 | RangeSlider (MaxSpeed)](https://github.com/deivmaik/365DaysOfCode/tree/7-RangeSlider(MaxSpeed))<br>
+Example (gif)![](https://raw.githubusercontent.com/deivmaik/365DaysOfCode/8-Button(RippleEffect)/ripple%20effect.gif)
 
+[Go back to list (main)](https://github.com/deivmaik/365DaysOfCode)
 
