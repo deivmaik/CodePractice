@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%
+}
+body{
+    background-color: rgb(27, 162, 172);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.loader{
+    position: relative;
+    height: 8rem;
+    width: 8rem;
+}
+
+.loader::after, .loader::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 5rem solid transparent;
+    border-bottom-color: white;
+    animation: rotateA 2s linear infinite 0.5s;
+}
+
+.loader::before {
+    transform: rotate(90deg);
+}
+
+@keyframes rorateA {
+    0%, 
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50%, 
+    75% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
