@@ -22,7 +22,8 @@ body{
     width: 8rem;
 }
 
-.loader::after, .loader::before {
+.loader::after, 
+.loader::before {
     content: '';
     position: absolute;
     top: 0;
@@ -36,9 +37,10 @@ body{
 
 .loader::before {
     transform: rotate(90deg);
+    animation: rotateB 2s linear infinite;
 }
 
-@keyframes rorateA {
+@keyframes rotateA {
     0%, 
     25% {
         transform: rotate(0deg);
@@ -53,3 +55,19 @@ body{
         transform: rotate(360deg);
     }
 }
+
+@keyframes rotateB {
+    0%,
+    25% {
+      transform: rotate(90deg);
+    }
+  
+    50%,
+    75% {
+      transform: rotate(270deg);
+    }
+  
+    100% {
+      transform: rotate(450deg);
+    }
+  }
