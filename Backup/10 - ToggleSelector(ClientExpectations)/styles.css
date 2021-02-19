@@ -42,13 +42,48 @@ body{
 }
 
 .slide {
+    position: absolute;
     background: white;
     height: 3.4rem;
     width: 3.4rem;
-    border-radius: 5rem;
-    position: absolute;
+    border-radius: 50%;
     top: 0.3rem;
     left: 0.3rem;
     align-items: center;
     justify-content: center;
+    animation: slideOff 0.3s linear forwards;
+}
+
+.toggle:checked + .label .slide {
+    animation: slideOn 0.3s linear forwards;
+}
+
+/* Animation */
+
+@keyframes slideOn {
+    0% {
+        transform: translateX(0) scale(1);
+    }
+
+    50% {
+        transform: translateX(2rem) scale(1.2);
+    }
+
+    10% {
+        transform: translateX(4rem) scale(1);
+    }
+}
+
+@keyframes slideOff {
+    0% {
+        transform: translateX(4rem) scale(1);
+    }
+
+    50% {
+        transform: translateX(2rem) scale(1.2);
+    }
+
+    100% {
+        transform: translateX(0) scale(1);
+    }
 }
