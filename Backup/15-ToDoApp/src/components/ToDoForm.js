@@ -12,11 +12,11 @@ function ToDoForm(props) {
         e.preventDefault()
         // This prevents the page from re-loading when clicking on submit
 
-        // props.onSubmit({
-        //     id: Math.floor(Math.random() * 1000),
-        //     text: input
-        //     // This creates a random ID number up to 1000
-        // })
+        props.onSubmit({
+            id: Math.floor(Math.random() * 1000),
+            text: input
+            // This creates a random ID number up to 1000
+        })
 
         setInput('')
         // Without this we get a props.onSubmit is not a function
