@@ -50,7 +50,7 @@ function ToDoList() {
 
     return (
         <div>
-           <h1> What's the plan for today?</h1>
+           <h1> Let's plan this day ahead!</h1>
            <ToDoForm onSubmit={addToDo} />
            <ToDo toDos={toDos} completeToDo={completeToDo} removeToDo={removeToDo} updateToDo = {updateToDo}/>
            {/* This allow us to delete the entries */}

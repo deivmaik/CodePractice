@@ -25,7 +25,7 @@ function ToDo({toDos, completeToDo, removeToDo, updateToDo}) {
     }
     return toDos.map((toDo,index) =>(
         <div 
-        className={toDo.isComplete ? 'toDo__row complete' : 'toDO__row'} 
+        className={toDo.isComplete ? 'toDo__row complete' : 'toDo__row'} 
         key={index}>
 
             <div key={toDo.id} onClick={()=> completeToDo(toDo.id)}>
