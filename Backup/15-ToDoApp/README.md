@@ -12,6 +12,8 @@ I am excited to start this project as it marks my first React js Project.
 
 -BEM methodology
 
+Example (gif)![](https://raw.githubusercontent.com/deivmaik/CodePractice/0-MainMenu/Backup/15-ToDoApp/toDoApp.gif)
+
 ## Technical Information
 
 In the project directory, you can run:
