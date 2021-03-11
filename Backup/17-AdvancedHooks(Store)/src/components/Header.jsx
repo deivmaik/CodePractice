@@ -1,12 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import '../styles/components/Header.css'
 
 const Header = () => {
   return (
     <div className="Header">
-      <h1 className="Header-title">La tiendita de Michael</h1>
+      <Link to="/">
+      <h1 className="Header-title">Online Shop</h1>
+      </Link>
       <div className="Header-checkout">
-        Checkout
+        <Link to="/checkout">
+          <i className="fas fa-shopping-basket" title="Checkout" />
+        </Link>
       </div>
     </div>
   );
