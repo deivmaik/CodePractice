@@ -1,8 +1,24 @@
 import React from 'react';
+import '../styles/components/Checkout.css'
 
 const Checkout = () => {
   return (
-    <h1>Checkout</h1>
+    <div className="Checkout">
+      <div className="Checkout-content">
+        <h3>Checkout</h3>
+        <div className="Checkout-item">
+          <div className="Checkout-element">
+            <h4>Item Name</h4>
+            <span>$10</span>
+          </div>
+          <button type="button">Delete</button>
+        </div>
+      </div>
+      <div className="Checkout-sidebar">
+        <h3>Total Price: $10</h3>
+        <button type="button">Continue</button>
+      </div>
+    </div>
   );
 }
 
