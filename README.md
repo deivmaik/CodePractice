@@ -1,34 +1,9 @@
-# CodePractice <br>
-[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/deivmaik/365DaysOfCode/blob/0-MainMenu/LICENSE)   ![visitors](https://visitor-badge.glitch.me/badge?page_id=deivmaik.365DaysOfCode) <br>
+# Drag&Drop(Random)
 
-A list with different components made by myself using the internet as my content provider.
+I thought this was a cool project to do, we have seen this kind of interactions before and it always made me curious on how they were made, now I have an idea of one way of doing it.
 
-## Done with<br>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<code><img height="15" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="15" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
+This example does not have a gif, while doing the gif file it didn't render the movement properly, so to illustrate the example I am attaching a jpeg file.
 
+Example (jpg)![](<https://raw.githubusercontent.com/deivmaik/CodePractice/0-MainMenu/Backup/12-Drag%26Drop(Random)/dragNdrop.jpg>)
 
-
-## List of Projects
-### HTML, CSS, JS
-
-- [ 01 | DarkMode (StarWars)](https://github.com/deivmaik/365DaysOfCode/tree/1-DarkMode(StarWars))<br>
-- [ 02 | ColorPicker (TeslaEdition)](https://github.com/deivmaik/365DaysOfCode/tree/2-ColorPicker(TeslaEdition))<br>
-- [ 03 | ColorFliper (ClubVersion)](https://github.com/deivmaik/365DaysOfCode/tree/3-ColorFliper(ClubVersion))<br>
-- [ 04 | PopUpModal (PseudoLoop)](https://github.com/deivmaik/365DaysOfCode/tree/4-PopUpModal(PseudoLoop))<br>
-- [ 05 | SearchInput (HiddenTruth)](https://github.com/deivmaik/365DaysOfCode/tree/5-SearchInput(HiddenTruth))<br>
-- [ 06 | ProgressBar (Pitbull)](https://github.com/deivmaik/365DaysOfCode/tree/6-ProgressBar(Pitbull))<br>
-- [ 07 | RangeSlider (MaxSpeed)](https://github.com/deivmaik/365DaysOfCode/tree/7-RangeSlider(MaxSpeed))<br>
-- [ 08 | Button (RippleEffect)](https://github.com/deivmaik/365DaysOfCode/tree/8-Button(RippleEffect))<br>
-- [ 09 | Loader (noJs)](https://github.com/deivmaik/Personal-UI-Library/tree/9-Loader(NoJs))<br>
-- [ 10 | ToggleSelector (ClientExpectations)](https://github.com/deivmaik/Personal-UI-Library/tree/10-ToggleSelector(ClientExpectations))<br>
-- [ 11 | ExpandingCards (FavCities)](https://github.com/deivmaik/CodePractice/tree/0-MainMenu/Backup/11-ExpandingCards(FavCities))<br>
-- [ 12 | Drag&Drop (Random)](https://github.com/deivmaik/CodePractice/tree/0-MainMenu/Backup/12-Drag%26Drop(Random))<br>
-
-
-### REACT JS
-
-- [ 16 | States (ToDo App)](https://github.com/deivmaik/CodePractice/tree/0-MainMenu/Backup/15-ToDoApp)<br>
-- [ 17 | API request (Weather App)](https://github.com/deivmaik/CodePractice/tree/0-MainMenu/Backup/16-WeatherApp/weather-app)<br>
+[Go back to list (main)](https://github.com/deivmaik/CodePractice)
