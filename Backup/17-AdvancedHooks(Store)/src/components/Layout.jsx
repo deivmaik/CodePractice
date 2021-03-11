@@ -1,6 +1,6 @@
-import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
+import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
 import '../styles/components/Layout.css'
 
 const Layout = ({ children }) => {
@@ -8,9 +8,9 @@ const Layout = ({ children }) => {
     <div className="Main">
       <Header />
       {children}
-      <footer />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Layout
+export default Layout;
