@@ -4,8 +4,8 @@ import '../styles/components/Footer.css'
 const Footer = () => {
   return (
     <div className="Footer">
-      <p className="Footer-title">Michael</p>
-      <p className="Footer-copy">Todos los Izquierdos Reservados</p>
+      <p className="Footer-title">Online Shop</p>
+      <p className="Footer-copy">All rights reserved</p>
     </div>
   );
 }

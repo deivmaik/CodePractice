@@ -15,7 +15,7 @@ const Product = ({ product }) => {
         </h2>
         <p>{product.description}</p>
       </div>
-      <button type="button">Comprar</button>
+      <button type="button">Buy</button>
     </div>
   );
 }
